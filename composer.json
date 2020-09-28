@@ -2,21 +2,17 @@
   "name": "bzhuk/module-checkout-cart-step",
   "description": "Additional Checkout Steps",
   "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
   "require": {
     "php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0",
     "magento/framework": "~102.0",
     "magento/module-backend": "101.0.*",
     "magento/module-config": "101.1.*"
   },
-  "license": [
-    "proprietary"
-  ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://github.com/hungryRabbit/module-checkout-cart-step.git"
-    }
-  ],
   "autoload": {
     "files": [
       "registration.php"
